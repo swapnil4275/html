@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+
+        <h1>Registration Form</h1>
+
+        <form>
+
+            <label for="fname">First Name :</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter First Name">
+            <br>
+            <label for="lname">Last Name :</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter Last Name">
+            <br>
+            <label for="mail">Email :</label>
+            <input type="email" id="mail" name="mail" placeholder="Enter Email Address">
+            <br>
+            <label for="pass">Password :</label>
+            <input type="password" id="pass" name="pass" >
+            <br><br>
+            <label for="gen">Gender:</label><br>
+            <label for="m">Male</label>
+            <input type="radio" id="m" name="gen"><br>
+            <label for="f">Female</label> 
+            <input type="radio" id="f" name="gen"><br>
+            <label for="o">Other</label>
+            <input type="radio" id="o" name="gen">
+            <br><br>
+            <label for="age">Age :</label>
+            <input type="number" id="age" name="age">
+            <br><br>
+            <label for="pre">Preferences :</label><br>
+            <label for="ap">Acrylic Painting</label>
+            <input type="checkbox" id="ap" name="Preferences"><br>
+            <label for="op">Oil Painting</label>
+            <input type="checkbox" id="op" name="Preferences"><br>
+            <label for="wp">Water Color Painting</label>
+            <input type="checkbox" id="wp" name="Preferences">
+            <br><br>
+            <label for="so">Select Occupation</label>
+
+            <select>
+                <option value="Student">Student</option>
+                <option value="Employee">Employee</option>
+                <option value="other">other</option>
+            </select>
+
+            <br><br>
+
+            <label for="bio">Bio :</label>
+            <textarea rows="10" cols="40" placeholder="share few lines about yourself...."></textarea>
+            <br><br>
+
+            <input type="reset" value="reset">
+            <input type="submit" value="submit">
+
+
+        </form>
+    </body>
+</html>

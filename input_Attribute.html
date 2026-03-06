@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>Input Attribute Web Page</title>
+    </head>
+
+    <body>
+
+        <form>
+
+            <!-- value input_attribute -->
+            <h3>value input_attribute</h3>
+            <label for="fname">First_Name:-</label>
+            <input type="text" id="fname" name="fname" value="swapnil"><br>
+            <label for="lname">Last_Name:-</label>
+            <input type="text" id="lname" name="lname" value="patil">
+
+            <!-- readonly input_attribute -->
+            <h3>readonly input_attribute</h3>
+            <label for="fname">First_Name:-</label>
+            <input type="text" id="fname" name="fname" value="swapnil" readonly><br>
+            <label for="lname">Last_Name:-</label>
+            <input type="text" id="lname" name="lname" value="patil">
+
+             <!-- disabled input_attribute -->
+            <h3>disabled input_attribute</h3>
+            <label for="fname">First_Name:-</label>
+            <input type="text" id="fname" name="fname" value="swapnil" disabled><br>
+            <label for="lname">Last_Name:-</label>
+            <input type="text" id="lname" name="lname" value="patil">
+
+            <!-- size input_attribute -->
+            <h3>size input_attribute</h3>
+            <label for="Ename">Name:</label>
+            <input type="text" id="Ename" name="Ename" size="20">
+
+            <!-- maxlength input_attribute -->
+            <h3>maxlength input_attribute</h3>
+            <label for="pin_code">PIN:</label>
+            <input type="text" id="pin_code" name="pin_code" maxlength="6">
+
+            <!-- min & max input_attribute -->
+            <h3>min & max input_attribute</h3>
+            <label for="birthdate">candidate birthdate:-</label>
+            <input type="date" id="birthdate" name="birthdate" min="2000-12-31" max="2008-01-25">
+            <br>
+            <label for="qty">Quantity:-</label>
+            <input type="number" id="qty" name="qty" min="1" max="10">
+
+            <!-- multiple input_attribute -->
+            <h3>Multiple input_attribute</h3>
+            <label for="files">Select Files:-</label>
+            <input type="file" id="files" name="files" multiple>
+
+            <!-- pattern input_attribute -->
+            <h3>pattern input_attribute</h3>
+            <label for="mob">mobile_no:-</label>
+            <input type="text" id="mob" name="mob" pattern="[0-9]{10}">
+            <input type="submit" value="submit">
+
+            <!-- placeholder input_attribute -->
+            <h3>placeholder input_attribute</h3>
+            <label for="country">Country:-</label>
+            <input type="text" id="country" name="country" placeholder="India">
+
+            <!-- required input_attribute -->
+            <h3>required input_attribute</h3>
+            <label for="req">state:-</label>
+            <input type="text" id="req" name="req" required>
+            <input type="submit" value="submit">
+
+            <!-- step input_attribute -->
+            <h3>step input_attribute</h3>
+            <label for="point">team_points:-</label>
+            <input type="number" id="point" name="point" step="3">
+
+            <!-- autofocus input_attribute -->
+            <h3>autofocus input_attribute</h3>
+            <label for="fname">First_Name:-</label>
+            <input type="text" id="fname" name="fname" autofocus><br><br>
+            <label for="lname">Last_Name:-</label>
+            <input type="text" id="lname" name="lname" >
+
+            <!-- height & width input_attribute -->
+            <h3>height & width input_attribute</h3>
+            <label for="pic">Upload_image:-</label>
+            <input type="image" src=".\images\tech.jpg" width="200" height="150">
+
+            <!-- datalist input_attribute -->
+            <h3>datalist input_attribute</h3>
+            <label for="plist">players_list:</label>
+            <input list="plist" name="plist">
+            <datalist id="plist">
+                <option value="Rohit Sharma">
+                <option value="Virat Kohli">
+                <option value="Hardik Pandey">
+            </datalist>
+
+            <!-- autocomplete input_attribute -->
+            <h3>autocomplete input_attribute</h3>
+            <label fro="fname">first_name</label>
+            <input type="text" id="fname" name="fname" autocomplete="on"><br>
+            <label for="lname">last_name</label>
+            <input type="text" id="lname" name="lname" autocomplete="off">
+
+
+        </form>
+
+    </body>
+</html>

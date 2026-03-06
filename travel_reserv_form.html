@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Travel Reservation Form</title>
+    </head>
+    <body>
+
+        <h1>Travel Reservation Form</h1>
+
+        <p>* denotes mandotory</p>
+
+        <form>
+
+            <label for="fname">Full name*:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="FirstName LastName" required>
+            <br>
+            <label for="mail">Email address*:</label><br>
+            <input type="email" id="mail" name="mail" placeholder="EMAIL_ADDRESS" required>
+            <br><br>
+
+            <label for="tour_pack">Select Tour Package*:</label><br>
+            <select required>
+                <option>Goa</option>
+                <option>Kerala</option>
+                <option>Kashmir</option>
+            </select>
+            <br><br>
+
+            <label for="arr_date">Arrival date*:</label><br>
+            <input type="date" id="arr_date" name="arr_date" required>
+            <br><br>
+
+            <label for="persons">Number of persons*:</label><br>
+            <input type="number" id="persons" name="persons" placeholder="UNKNOWN_TYPE" required>
+            <br><br>
+
+            <label for="want_avail">What Would you want to avail?*</label><br>
+            <label for="boarding">Boarding</label>
+            <input type="checkbox" id="boarding" name="want_avail"><br>
+            <label for="food">Fooding</label>
+            <input type="checkbox" id="food" name="want_avail"><br>
+            <label for="sight_seeing">Sight seeing</label>
+            <input type="checkbox" id="sight_seeing" name="want_avail">
+            <br><br>
+
+            <label for="dis_code">Discout Coupon code:</label><br>
+            <input type="text" id="dis_code" name="dis_code" placeholder="UNKNOWN_TYPE">
+            <br><br>
+
+            <label for="t&c">Terms and conditions*</label>
+            <br>
+            <input type="radio" id="agree" name="t&c">
+            <label for="agree">I agree</label>
+            <input type="radio" id="disagree" name="t&c">
+            <label for="disagree">I disagree</label>
+            <br><br>
+            
+            <input type="submit" value="Complete reservation">
+
+
+
+        </form>
+
+    </body>
+</html>

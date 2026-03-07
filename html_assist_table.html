@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>HTML Assistant</title>
+    </head>
+
+    <body>
+
+        <h1>HTML Assistant</h1>
+
+        <table>
+
+            <tr>
+                <td colspan="2">Topic:
+                
+                    <select>
+                        <option>Table</option>
+                        <option>Form</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Convert any selected tab-delimited text into a HTML table with specified formatting:</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Caption:
+                <input type="text">
+            </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="checkbox">
+                    Caption below table
+                </td>
+                <td>Border:
+                    <input type="text">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox">
+                    Column Headers
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox">Row Headers</td>
+                <td>Cellspacing:
+                    <input type="text" value="2">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Include End Tags</td>
+                <td>Cellpadding:
+                    <input type="text" value="1">
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>Import file...
+                    <input type="file">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><b>Cell Contents Alignment:</b></td>
+            </tr>
+
+            <tr>
+                <td>Horizontal:
+                    <select>
+                        <option>Default [Left]</option>
+                        <option>Center</option>
+                        <option>Right</option>
+                    </select>
+                </td>
+
+                <td>Width:
+                    <input type="text">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Vertical:
+                    <select>
+                        <option>Default [Middle]</option>
+                        <option>Top</option>
+                        <option>Bottom</option>
+                    </select>
+                </td>
+
+                <td>Height:
+                    <input type="text">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button" value="Insert sample table">
+                </td>
+
+                <td>
+                    <label for="row">Rows:</label>
+                    <input type="text" id="row" value="1">
+
+                    <label for="col">Cols:</label>
+                    <input type="text" id="col" value="2">
+                </td>
+            </tr>
+            <tr></tr><tr></tr><tr></tr>
+
+            <tr>
+                <td>
+                    <input type="button" value="Example">
+                </td>
+                <td>
+                    <input type="button" value="Apply">
+                </td>
+            </tr>
+
+        </table>
+
+    </body>
+</html>

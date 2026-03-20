@@ -1,46 +1,164 @@
 <html>
-    <head>
-        <title>Attendance Sheet</title>
-    </head>
 
-    <body>
-       <div>
-       <img src="D:\DevMinds\html\images\DevMinds.png" alt="logo" width="250" height="120">
-       <br><br>
-       </div>
+<head>
+    <title>Attendance Sheet</title>
 
-       <p>Name:</p>
-       
-       <p>Mob_No:</p>
-       
-       <p>Email:</p>
-       
-       <p>Address:</p>
-       
-       <p>Education:</p>
-       <br><br>
+    <!-- <link rel="stylesheet" href="..\css\Attendance.css"> -->
 
-       <p>Role-</p>
+    <style>
 
-       <p>Start_date-</p>
+        body {
+            background-color: rgba(200, 225, 234,0.8);
+        }
 
-       <p>End_date-</p>
+        header {
+            margin: auto;
+            background-color: rgba(195, 225, 232,0.8);
+        }
 
+        .container {
+            display: flex;
+            width: 800;
+        }
 
-       <table border="1">
+        .info {
+            width: 50%;
+        }
 
-        <tr>
-            <th>Date</th>
-            <th>In-Time</th>
-            <th>Out-Time</th>
-            <th>Sign</th>
-        </tr>
+        .role {
+            width: 50%;
+        }
 
-        <tr>
-            <td>02-03-2026</td>
-        </tr>
+        table {
+            display: flex;
+            margin: 20px;
+            width: 700;
+            /* border: 1px solid black; */
+            border-collapse: collapse;
+        }
 
-       </table>
+        table, th, td {
+            border: 1px solid, black;
+        }
 
-    </body>
+        th {
+            text-align: center;
+            padding: 10px;
+        }
+
+        td {
+            text-align: left;
+            padding: 10px;
+        }
+
+        .date {
+            width: 200;
+        }
+
+        .data {
+            width: 150;
+        }
+
+        /* img {
+            filter: brightness(0.5);
+        } */
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="img">
+            <img src="..\html\images\DevMinds.png" alt="logo" width="250" height="80">
+            <br><br>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="info">
+            <p>Name:</p>
+
+            <p>Mob_No:</p>
+
+            <p>Email:</p>
+
+            <p>Address:</p>
+
+            <p>Education:</p>
+            <br><br>
+        </div>
+
+        <div class="role">
+
+            <p>Role-</p>
+
+            <p>Start_date-</p>
+
+            <p>End_date-</p>
+        </div>
+    </div>
+    <div class="table">
+        <table>
+
+            <tr>
+                <th class="date">Date</th>
+                <th class="data">In-Time</th>
+                <th class="data">Out-Time</th>
+                <th class="data">Sign</th>
+            </tr>
+
+            <tr>
+                <td>02-03-2026</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+             <tr>
+                <td>03-03-2026</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+             <tr>
+                <td>04-03-2026</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+             <tr>
+                <td>05-03-2026</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+             <tr>
+                <td>06-03-2026</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+             <tr>
+                <td>07-03-2026</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+             <tr>
+                <td>08-03-2026</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+
 </html>
